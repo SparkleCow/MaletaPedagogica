@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>CSS</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+          <div class="container-fluid">
+            <a class="navbar-brand fs-2" href="#">Sparkle <span class="after-element ">Horse</span> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+                <li class="login-register d-flex ">
+                    <!-- <a href="#"><button type="button " class="btn login-button  ">Ingresar</button></a> -->
+                    <button type="button" class=" btn-login p-2">Ingresar</button>
+                    <button type="button" class=" register-button p-2 m-2">Registrarse</button>
+                </li>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <img src="" alt="">
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb ">
+          <ol class="breadcrumb ms-5 p-3 fs-5" >
+            <strong>
+              <li class="breadcrumb-item"><a href="/index.html" class="link-offset-2 link-underline link-underline-opacity-0"><i class="bi bi-house p-2 "></i>Inicio</a></li>
+            </strong> 
+          </ol>
+        </nav>
+        <aside>
+          <div class="container ms-5">
+            <div class="row ">
+               <div class="col-3 p-3 "  > <!--style="overflow-y: auto; max-height: 900px"-->
+                <div id="list-example" class="list-group ps-2"  >
+                  <a class="list-group-item list-group-item-action" href="./html.html" id="list-item-1"> <i class="bi bi-filetype-html pe-2"></i>Introducción</a>
+                  <a class="list-group-item list-group-item-action" href="./sintaxis/sintaxis.html" id="list-item-2">Sintáxis</a>
+   
+                </div>
+              </div>
+              <div class="col-9 m-0">
+                <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+                  <div class="title-content pt-0 m-3 mb-3">
+                    <h1 id="list-item-1" class="title main-title text-center fs-1">Introducción a CSS:  ¿Qué es <span  class="after-element">CSS?</span></h1>
+                    <p class="description text-center  mt-4 p-3 fs-5">Hojas de Estilo en Cascada (Cascading Style Sheets) es el lenguaje utilizado para describir la presentación de documentos HTML. 
+                        <span  class="after-element" > <b> CSS</b></span> describe como debe ser renderizado el elemento estructurado en pantalla.</p>
+                        <img class="image-second w-100 h-100  " src="/imagenes/css-logo-2.png" alt="">
+                    </div>
+               
+                <div class="title-content pt-0 m-0 mt-5 mb-5">
+                  <h1 class="title text-center fs-1"> Creación de <span  class="after-element">CSS</span>
+                  </h1>
+                  <div class="container m-4 d-flex justify-content-center align-items-center">
+                    <div class="row gx-5">
+                      <div class=" col-12 col-md-6 col-sm-7 ">
+                      <div class="paragraph-content p-3 fs-5 ">Al principio las páginas web estaban hechas
+                        sólo con HTML, sin embargo pronto se vio que
+                        este lenguaje tenía muchas limitaciones cuando
+                        se quería hacer el diseño de la página y el estilo  de sus elementos.
+                        Para solucionar esto se creó el lenguaje <span  class="after-element" > <b> CSS </b> </span>.
+                        Con<span  class="after-element" > <b>  CSS </b> </span> separamos los dos aspectos de la
+                        página. Por un lado con HTML nos ocupamos
+                        del contenido, y por otro con <span  class="after-element" > <b> CSS </b> </span> nos ocupamos
+                        del estilo.</p></div>
+                      </div>
+                      <div class="col-12 col-md-6 col-sm-7 p-2">
+                        <img class="image-second w-100 h-100  " src="/imagenes/HTML5 and css.webp" alt="">
+                      </div>
+                    </div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </main>
+    <script src="css.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
