@@ -1,0 +1,170 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: ""; 
+    /* background-image: url("imagenes/Group\ 12-2.png") ; */
+    /* background-size: 100%;
+    background-repeat: no-repeat; */
+    background-color: #ddd6f3;
+
+}
+/* Header */
+/* brand-nav */
+.after-element{
+    color: #B980AF;
+}
+/* link elements */
+.nav-link{
+    margin-left:10px;
+}
+.nav-link:hover{
+    border-bottom: 2px #B980AF solid;
+    transition: .10s;
+}
+/* dropdown-menu */
+.dropdown-menu .dropdown-item:hover{
+    background-color: #B980AF;
+}
+
+/* Login and register button */
+.login-register .btn-login:hover{
+   color: #B980AF;  
+}
+.login-register .btn-login{
+    border:none;
+    font-size: 1.1rem;
+    background-color: transparent;
+    border-radius: 5px; 
+}
+/* register button */
+.login-register .register-button{
+    background-color: #B980AF;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+}
+.login-register .register-button:hover {
+    background-color: #b980aecf;
+    color: black;
+}
+
+/* container */
+.section-2{
+    margin-top: 10%;
+    background-color: #a58ef7;
+    border-radius: 30% 70% 25% 75% / 84% 53% 47% 16%  ;
+}
+.section-3{
+    margin-top: 10%;
+    background-color: #a58ef7;
+    border-radius: 30% 70% 25% 75% / 84% 53% 47% 16%  ;
+}
+.body-image{
+    position:absolute ;
+    width: 100%;
+    height: 125vh;
+}
+.body-image-section-3{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+}
+
+.info-container{
+    position:relative ;
+    padding: 5%;
+}
+/* image */
+/* 
+.image-fluid{
+    width: 100%;
+    height: 70%;
+}  */
+.title-content {
+    color: white;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+.text-content{
+    font-size: 1.1rem;
+    padding: 5%; 
+}
+/* button section */
+.text-content .btn-section-1{
+    border-radius: 5px ;
+    border-style: none;
+    min-width: 13%;
+    padding: 5px;
+    background-color: transparent;
+    border: white 2px solid;
+    color: white;
+}
+.text-content .btn-section-1:hover{
+    transition: 0.5s;
+    transform:translateY(5%);
+    color: black;
+    border: black 2px solid;
+}
+
+.text-content .btn-section-2{
+    background-color: antiquewhite;
+    border-radius: 5px ;
+    border-style: none;
+    min-width: 13%;
+    padding: 5px;
+    box-shadow: 5px  4px 10px 2px black ;
+}
+
+.text-content .btn-section-2:hover{
+    background-color: #B980AF;
+    color: white;
+    transition: 0.5s;
+    transform:translateY(5%);
+}
+/* title and paragraph */
+.title-content .title-section{
+    font-size: 4rem;
+    color: white;
+    
+    /* background: -webkit-linear-gradient(#ffffff 20%, #B980AF 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+.section-paragraph-content{
+    color: black;
+    font-size: 1.5rem;
+}
+
+/* cards */
+.container .card:hover{
+    transform: scale(1.05);
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+    /* text-shadow: 0 1px 7px rgba(0,0,0,0.6); */
+}
+
+
+/* Button cards */
+.container .btn-card{
+    border-radius: 5px;
+    border: 0;
+    box-shadow: 0 5px #af9bf9;
+    width: 5rem;
+    background-color: #ddd6f3;
+    color:black;
+}
+.container .btn-card:hover{
+    background-color: #c2b5f1;
+    box-shadow: 0 5px #a58ef7;
+}
+.container .btn-card:active{
+    box-shadow: none;
+    transform: translateY(4px);
+}
+
+.card1, .card2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

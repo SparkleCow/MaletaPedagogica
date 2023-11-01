@@ -1,0 +1,104 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #B980AF;;
+
+}
+/* Header */
+/* brand-nav */
+.after-element{
+    color: #B980AF;
+}
+/* link elements */
+.nav-link{
+    margin-left:10px;
+}
+.nav-link:hover{
+    border-bottom: 2px #B980AF solid;
+    transition: .10s;
+}
+/* dropdown-menu */
+.dropdown-menu .dropdown-item:hover{
+    background-color: #B980AF;
+}
+
+/* Login and register button */
+.login-register .btn-login:hover{
+   color: #B980AF;  
+}
+.login-register .btn-login{
+    border:none;
+    font-size: 1.1rem;
+    background-color: transparent;
+    border-radius: 5px; 
+}
+/* register button */
+.login-register .register-button{
+    background-color: #B980AF;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+}
+.login-register .register-button:hover {
+    background-color: #b980aecf;
+    color: black;
+}
+/* first section */
+
+
+
+/* image container */
+
+.title-1{
+    font-size: 55px;
+    background: -webkit-linear-gradient(rgb(250, 250, 38), rgb(255, 70, 70));
+    background-clip: text;    
+    -webkit-text-fill-color: transparent;
+      
+}
+.paragraph-1{
+    background: #FDC830;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    border-radius: 30px;
+}
+
+
+/* second section */
+.main-container-2{
+    
+    border-radius: 20rem 0px 30rem 0;
+    background: #67B26F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4ca2cd, #67B26F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+}
+.title-2{
+    font-size: 55px;
+    background: -webkit-linear-gradient(rgb(238, 86, 36), rgb(237, 151, 66));
+    background-clip: text;    -webkit-text-fill-color: transparent;
+}
+.paragraph-2{
+    color: white;
+
+    
+}
+
+/* section 3 */
+
+.main-container-3{
+    color: black;
+}.title-3{
+    font-size: 55px;
+    background: -webkit-linear-gradient(rgb(250, 250, 38), rgb(255, 70, 70));
+    background-clip: text;    -webkit-text-fill-color: transparent;
+      
+}
+.paragraph-3{
+    background: #FDC830;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    border-radius: 30px;
+}
