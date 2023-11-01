@@ -168,3 +168,9 @@ body {
     flex-direction: row;
     justify-content: center;
 }
+
+.contenedor_texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
